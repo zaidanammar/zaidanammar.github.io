@@ -1,0 +1,138 @@
+body {
+    background: url(https://images.wallpaperscraft.com/image/snow_winter_trees_136654_3840x2160.jpg);
+    background-size: 100%;
+}
+
+.main-title h1, h2{
+    color: rgb(23, 30, 65);
+    text-align: center;
+}
+
+#title1 {
+    font-size: 55px;
+}
+
+#title2 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 55px;
+    margin: 20px;
+}
+
+.input-name {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.input-level {
+    text-align: center;
+    /* margin-top: 10%; */
+}
+
+
+.input-name label, .input-level {
+    font-size: 32px;
+    font-family: sans-serif;
+    color: rgb(8, 19, 36)
+}
+
+.input-name input#name {
+    width: 320px;
+    height: 50px;
+    background: #343941;
+    border: none;
+    font-size: 18pt;
+    color: #c7ced4;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#input-submit {
+    display: grid;
+    background-color: rgb(23, 36, 65);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* style home.html */
+
+#opening {
+    text-align: center;
+    color: rgb(23, 30, 65);
+    /* background-color: brown; */
+    font-size: 55px;
+    margin-bottom: 1%;
+    position: relative;
+    top: -13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin: auto;
+    width: 755px;
+    position: relative;
+    bottom: 25px;
+    cursor: url(image/shot.png), auto;
+}
+
+.icerock {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
+
+.icerock::after {
+    content: '';
+    display: block;
+    width: 250px;
+    height: 100px;
+    background: url(image/icerock.png)center no-repeat;
+    position: absolute;
+    background-size: 75%;
+    bottom: -10px;
+}
+
+.polar {
+    height: 100%;
+    width: 100%;
+    background: url(image/polarbear.png) center no-repeat;
+    background-size: 65%;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    transition: top 0.2s;
+}
+
+.icerock.show .polar {
+    top: -10px;
+}
+
+ button#start {
+    width: 200px;
+    height: 50px;
+    background: #343941;
+    border: none;
+    font-size: 18pt;
+    color: #c7ced4;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
