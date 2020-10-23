@@ -1,6 +1,6 @@
 var icerock = document.getElementsByClassName('icerock');
 var polar = document.getElementsByClassName('polar')
-var shooting  = document.getElementById('shoot')
+// var shooting  = document.getElementById('shoot')
 
 let finish;
 let score;
@@ -52,6 +52,5 @@ function startMe() {
 function hitMe () {
     score++
     document.getElementById('nilai').innerHTML = score
-    shooting.play()
-    this.parentNode.classList.remove('show')
+    // shooting.play()
 }
